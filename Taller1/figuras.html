@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Geometrics Shapes</title>
+        <link rel="stylesheet" href="./figuras.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,500&display=swap" rel="stylesheet">
+    </head>
+    <header>
+        <div class="logo-box">
+            <img src="./assets/calculator.png" alt="">
+        </div>
+        <h1>Geometric Shapes</h1>
+    </header>
+    <body>
+        <section class="calculator-section">
+            
+            <div class="calculator__box square">
+                <div class="calculator__form">
+                    <img src="./assets/blue-square.png" alt="Blue Square">
+                    <form action="">
+                        <label for="SquareSide">Write your square's sides</label>
+                        <input id="SquareSide" type="number" placeholder="Square side ...">
+                        <button type="button" onclick="CalculateSquare()">Calculate measures</button>
+                    </form>
+                </div>
+                <div class="calculator__result">
+                    <div class="calculator__result--area">
+                        <h3>The square's area is:</h3>
+                        <p id="resultSquareArea" class="square__area-result"></p><p class="result-measure">cm</p>
+                    </div>
+                    <div class="calculator__result--perimeter">
+                        <h3>The square's perimeter is:</h3>
+                        <p id="resultSquarePerimeter" class="square__perimeter-result"></p><p class="result-measure">cm</p>
+                    </div>        
+                </div>
+            </div>
+            
+
+            <div class="calculator__box triangle">
+                <div class="calculator__form">
+                    <img src="./assets/blue-triangle.png" alt="Blue Triangle">
+                    <form action="">
+                        <label for="TriangleSide">Write your triangle's sides</label>
+                        <input id="TriangleBase" type="number" placeholder="Base of the triangle ...">
+                        <input id="TriangleSide2" type="number" placeholder="First side of the triangle...">
+                        <input id="TriangleSide3" type="number" placeholder="Second side of the triangle...">
+                        <input id="TriangleHeight" type="number" placeholder="Height of the triangle...">
+                        <button type="button" onclick="CalculateTriangle()">Calculate measures</button>
+                    </form>
+                </div>
+                <div class="calculator__result">
+                    <div class="calculator__result--area">
+                        <h3>The triangle's area is:</h3>
+                        <p id="resultTriangleArea" class="triangle__area-result"></p><p class="result-measure">cm</p>
+                    </div>
+                    <div class="calculator__result--perimeter">
+                        <h3>The triangle's perimeter is:</h3>
+                        <p id="resultTrianglePerimeter" class="triangle__perimeter-result"></p><p class="result-measure">cm</p>
+                    </div>        
+                </div>
+            </div>
+
+
+            <div class="calculator__box circle">
+                <div class="calculator__form">
+                    <img src="./assets/blue-circle.png" alt="Blue Circle">
+                    <form action="">
+                        <label for="CircleRadius">Write your circle's radius</label>
+                        <input id="CircleRadius" type="number" placeholder="Radius of the circle ...">
+                        <button type="button" onclick="CalculateCircle()">Calculate measures</button>
+                    </form>
+                </div>
+                <div class="calculator__result">
+                    <div class="calculator__result--area">
+                        <h3>The circle's area is: (rounded)</h3>
+                        <p id="resultCircleArea" class="circle__area-result"></p><p class="result-measure">cm</p>
+                    </div>
+                    <div class="calculator__result--perimeter">
+                        <h3>The circle's perimeter is: (rounded)</h3>
+                        <p id="resultCirclePerimeter" class="circle__perimeter-result"></p><p class="result-measure">cm</p>
+                    </div>        
+                </div>
+            </div>
+
+            
+
+        </section>
+        <script src="./figuras.js"></script>
+    </body>
+</html>
