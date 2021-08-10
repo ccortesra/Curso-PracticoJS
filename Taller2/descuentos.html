@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Discount</title>
+        <link rel="stylesheet" href="./figuras.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./descuentos.css">
+    </head>
+    <header>
+        <div class="logo-box">
+            <img src="./assets/calculator.png" alt="">
+        </div>
+        <h1>Discounts Calculator</h1>
+    </header>
+    <body>
+        <section>
+            <div class="discount-container">
+                <img src="./assets/discount.png" alt="Discount symbol">
+                <form action="">
+                    <label for="OriginalPrice">What is the original price of the product?</label>
+                    <input id="OriginalPrice" type="number" placeholder="Original price ...">
+                    <label for="ProductDiscount">What is the discount of the product?</label>
+                    <input id="ProductDiscount" type="number" placeholder="Original price ...">
+                    <button type="button" onclick="ReturnFinalPrice()">Calculate final price</button>
+                </form>
+                <div class="result-box">
+                    <p id="ResultDiscount" class="result-discount"></p><p class="result-measure">$</p>
+                </div>
+                
+            </div>
+        </section>
+
+        
+        <script src="./descuentos.js"></script>
+    </body>
+</html>

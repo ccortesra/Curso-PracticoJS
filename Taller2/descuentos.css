@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #444444;
+}
+
+header .logo-box {
+    padding: 0 30px;
+}
+
+header h1 {
+    padding: 0 30px;
+    color: white;
+}
+
+
+body {
+    background-color: #171717;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.discount-container {
+    background-color: white;
+    width: 80%;
+    height: 60vh;
+    max-width: 400px;
+    max-height:600px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discount-container img {
+    margin: 20px 0px;
+}
+
+
+.discount-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+    
+}
+
+.discount-container label {
+    margin: 5px 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.discount-container input {
+    margin: 5px 0;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 70%;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 15px;
+    height: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    outline-style: none;
+
+}
+
+.discount-container button {
+    margin: 5px 0;
+    border-radius: 15px;
+    background-color: #3E65E6;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 30px;
+    width: 60%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+.result-discount {
+    font-size: 5rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.result-measure {
+    font-size: 1.8rem;
+    font-weight: 300;
+    display: inline-block;
+}

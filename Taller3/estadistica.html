@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mean, median and mode</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estadistica.css">
+</head>
+<body>
+    <header>
+        <div class="logo-box">
+            <img src="./assets/calculator.png" alt="">
+        </div>
+        <h1>Statistics</h1>
+    </header>
+    <section>
+
+        <div class="container mean">
+            <img src="./assets/bell-curve.png" alt="Bell Curve">
+            <h3>Mean</h3>
+            
+            <form action="">
+                <label for="ArrayNumbers">Introduce the numbers to analyze</label>
+                <input id="ArrayNumbers" type="text" placeholder="Array of numbers ...">
+                <button type="button" onclick="CalculateMean()">Calculate Mean</button>
+            </form>
+            
+            <p id="MeanResult"></p>
+        </div>
+
+        <div class="container median">
+            <img src="./assets/m-letter.png" alt="M Letter">
+            <h3>Median</h3>
+            
+            <form action="">
+                <label for="ArrayNumbers2">Introduce the numbers to analyze</label>
+                <input id="ArrayNumbers2" type="text" placeholder="Array of numbers ...">
+                <button type="button" onclick="CalculateMedian()">Calculate Median</button>
+            </form>
+            
+            <p id="MedianResult"></p>
+        </div>
+
+        <div class="container mode">
+            <img src="./assets/girl-dress.png" alt="Girl with a red dress">
+            <h3>Mode</h3>
+            
+            <form action="">
+                <label for="ArrayNumbers3">Introduce the numbers to analyze</label>
+                <input id="ArrayNumbers3" type="text" placeholder="Array of numbers ...">
+                <button type="button" onclick="CalculateMode()">Calculate Mode</button>
+            </form>
+            
+            <p id="ModeResult"></p>
+        </div>
+    </section>
+    <script src="./estadistica.js"></script>
+</body>
+</html>

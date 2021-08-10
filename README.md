@@ -3,7 +3,5 @@ Talleres y ejercicios de práctica en el curso de platzi, el objetivo de este cu
 
 
 ## Taller N°1: Figuras Geométricas
-
-- Primer paso: Definir fórmulas
-- Segundo paso: Crear funciones con baso en las fórmulas
-- Tercer paso: Integrar JavaScript con HTML
+## Taller N°2: Cálcular Descuentos
+## Taller N°3: Cálcular media, mediana y moda
