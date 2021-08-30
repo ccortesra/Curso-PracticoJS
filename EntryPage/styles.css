@@ -35,3 +35,54 @@ header a {
 body {
     background-color: #171717;
 }
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-container div {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.main-container p {
+    width: 70%;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 15px;
+    height: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    outline-style: none;
+    margin: 3px;
+
+}
+
+.go-button {
+    border-radius: 15px;
+    background-color: #3E65E6;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 30px;
+    width: 60%;
+    border: 2px solid black;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
